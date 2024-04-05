@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Main container styles */
+.main-container {
+  background-color: #f0f4f8; /* Cool, light blue background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Row container styles */
+.row-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+/* Group row styles */
+.group {
+  background-color: #d1e7fd; /* Lighter shade for group rows */
+  font-weight: bold;
+}
+
+/* Task row styles */
+.task {
+  background-color: #e3f2fd; /* Slightly different shade for task rows */
+}
+
+/* Other row styles */
+.other {
+  background-color: #e9ecef; /* Neutral shade for other rows */
+}
+
+/* Hover effect for all rows */
+.row-container:hover {
+  background-color: #cfe2f3; /* Darker shade on hover */
+}

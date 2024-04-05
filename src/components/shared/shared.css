@@ -1,0 +1,21 @@
+/* Group row styles */
+.group {
+    background-color: #d1e7fd; /* Lighter shade for group rows */
+    font-weight: bold;
+  }
+  
+  /* Task row styles */
+  .task {
+    background-color: #e3f2fd; /* Slightly different shade for task rows */
+  }
+  
+  /* Other row styles */
+  .other {
+    background-color: #e9ecef; /* Neutral shade for other rows */
+  }
+  
+  /* Hover effect for all rows */
+  .row-container:hover {
+    background-color: #cfe2f3; /* Darker shade on hover */
+  }
+  
